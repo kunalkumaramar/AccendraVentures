@@ -1,0 +1,110 @@
+.know-more-page {
+  padding: 40px 0px;
+  font-family: Arial, sans-serif;
+}
+
+.know-more-page h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  color: #18AC94;
+}
+
+.know-more-page h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #686565;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.know-more-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1500px;
+  margin: 30px auto;
+  gap: 60px;
+  background: #c1f4ef;
+  border-radius: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.know-more-image {
+  flex: 1;
+  text-align: center;
+}
+
+.know-more-image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  animation: floatImage 3s ease-in-out infinite;
+}
+
+.know-more-text {
+  flex: 2;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.know-more-text p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Floating animation */
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Responsive layout for tablets */
+@media screen and (max-width: 900px) {
+  .know-more-content {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .know-more-text {
+    padding: 0;
+  }
+}
+
+/* Extra responsive for small devices (mobile) */
+@media screen and (max-width: 480px) {
+  .know-more-page h1 {
+    font-size: 28px;
+  }
+
+  .know-more-page h2 {
+    font-size: 16px;
+  }
+
+  .know-more-text p {
+    font-size: 16px;
+  }
+
+  .know-more-image img {
+    max-width: 250px;
+  }
+
+  .know-more-content {
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,155 @@
+/* ------------------- CONTACT PAGE ------------------- */
+.contact-page {
+  padding: 40px 0px 0;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.contact-page h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #18AC94;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-image img {
+  max-width: 350px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #c1f4ef;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.contact-form textarea {
+  height: 220px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #00a19d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #007c73;
+}
+
+/* Floating Animation */
+@keyframes floatImage {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(12px); }
+  100% { transform: translateY(0); }
+}
+
+/* ------------------- FOOTER ------------------- */
+.footer {
+  background: #c1f4ef;
+  padding: 30px 10%;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.Head {
+  color: #18AC94;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Disclamer {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+@media (max-width: 768px) {
+  .contact-page h1 {
+    font-size: 32px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-image img {
+    max-width: 250px;
+  }
+
+  .contact-form {
+    max-width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .contact-form textarea {
+    height: 180px;
+  }
+
+  .footer {
+    padding: 20px 5%;
+  }
+
+  .Disclamer {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page h1 {
+    font-size: 26px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.95rem;
+  }
+
+  .Head {
+    font-size: 18px;
+  }
+
+  .Disclamer {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}
