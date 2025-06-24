@@ -91,7 +91,7 @@ const HeroSection = () => {
 
       <div className="scrolling-categories">
         <div className="scroll-track">
-          {['Permanent Staffing', 'Leadership Hiring', 'Executive Hiring', 'Hr Audit', 'Hr Operations']
+          {['Permanent Staffing', 'Leadership Hiring', 'Temporary & Contract Staffing', 'Executive Hiring', 'Outsourcing Services','HR Audit','HR Operations','Employee Life Cycle','Onboarding','HR Interviews/Discussions','Payroll','IT Infrastructure Services','Cybersecurity','Digital Application Services','Statutory & Compliance Services']
             .flatMap(item => [item, item]) // repeats items for longer scroll
             .map((item, index) => (
               <div className="category-item" key={index}>
