@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/AccendraVentures/static/css/main.66c63051.css",
-    "main.js": "/AccendraVentures/static/js/main.353b999d.js",
+    "main.js": "/AccendraVentures/static/js/main.fbe4ceb9.js",
     "static/media/m1.png": "/AccendraVentures/static/media/m1.800ae2db2631b4b991e2.png",
     "static/media/about.png": "/AccendraVentures/static/media/about.7559b68718e764eb1aa7.png",
     "static/media/m2.png": "/AccendraVentures/static/media/m2.3d1bd893dcfac6bb18a6.png",
-    "static/media/heroimg.png": "/AccendraVentures/static/media/heroimg.a718f892dadeea85123a.png",
+    "static/media/heroimg.png": "/AccendraVentures/static/media/heroimg.6f600f27ec99e864531e.png",
     "static/media/p1.png": "/AccendraVentures/static/media/p1.eeb424cbefcf625940e4.png",
     "static/media/logo.png": "/AccendraVentures/static/media/logo.aa6e610c16289f99eeef.png",
     "static/media/p2.png": "/AccendraVentures/static/media/p2.2f8831493b3bb44b8610.png",
     "index.html": "/AccendraVentures/index.html",
     "main.66c63051.css.map": "/AccendraVentures/static/css/main.66c63051.css.map",
-    "main.353b999d.js.map": "/AccendraVentures/static/js/main.353b999d.js.map"
+    "main.fbe4ceb9.js.map": "/AccendraVentures/static/js/main.fbe4ceb9.js.map"
   },
   "entrypoints": [
     "static/css/main.66c63051.css",
-    "static/js/main.353b999d.js"
+    "static/js/main.fbe4ceb9.js"
   ]
 }
