@@ -1,0 +1,89 @@
+/* Main Section Styles */
+.tab-services-page {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.tab-services-main-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #007c73;
+  margin-bottom: 1rem;
+}
+
+.tab-services-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tab-services-tab-button {
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #c1f4ef;
+  color: #007c73;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+.tab-services-tab-button.active,
+.tab-services-tab-button:hover {
+  background-color: #18AC94;
+  color: #ffffff;
+}
+
+.tab-services-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.tab-services-card {
+  flex: 1 1 220px;
+  max-width: 250px;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: #c1f4ef;
+  color: #007c73;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 3px 12px rgba(0, 124, 115, 0.08);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.tab-services-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 18px rgba(0, 124, 115, 0.12);
+}
+
+.tab-services-description {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #c1f4ef;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #007c73;
+  text-align: left;
+  box-shadow: 0px 3px 12px rgba(0, 124, 115, 0.08);
+}
+
+.tab-services-description h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007c73;
+}
+
+.tab-services-description p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
