@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AccendraVentures/static/css/main.f70bdc50.css",
-    "main.js": "/AccendraVentures/static/js/main.179be83f.js",
+    "main.js": "/AccendraVentures/static/js/main.9d7ac706.js",
     "static/media/m1.png": "/AccendraVentures/static/media/m1.800ae2db2631b4b991e2.png",
     "static/media/about.png": "/AccendraVentures/static/media/about.7559b68718e764eb1aa7.png",
     "static/media/m2.png": "/AccendraVentures/static/media/m2.3d1bd893dcfac6bb18a6.png",
@@ -13,10 +13,10 @@
     "static/media/p2.png": "/AccendraVentures/static/media/p2.2f8831493b3bb44b8610.png",
     "index.html": "/AccendraVentures/index.html",
     "main.f70bdc50.css.map": "/AccendraVentures/static/css/main.f70bdc50.css.map",
-    "main.179be83f.js.map": "/AccendraVentures/static/js/main.179be83f.js.map"
+    "main.9d7ac706.js.map": "/AccendraVentures/static/js/main.9d7ac706.js.map"
   },
   "entrypoints": [
     "static/css/main.f70bdc50.css",
-    "static/js/main.179be83f.js"
+    "static/js/main.9d7ac706.js"
   ]
 }
