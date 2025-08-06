@@ -1,13 +1,8 @@
 import React from 'react';
 import '../styles/AboutUs.css';
 import about from '../assets/about.png';
-import partner1 from '../assets/p1.png';
-import partner2 from '../assets/p2.png';
-import partner3 from '../assets/p3.png';
-import partner4 from '../assets/p4.png';
 
 const AboutUs = () => {
-  const logos = [partner1, partner2, partner3, partner4];
 
   return (
     <section id="about" className="about-section">
@@ -24,23 +19,6 @@ const AboutUs = () => {
         </div>
         <div className="image-wrapper">
           <img src={about} alt="Founder" className="about-image" />
-        </div>
-      </div>
-
-      <div className="partners-section">
-        <h3 className="partners-title">
-          Our <span className="highlight">Empanelled Partners</span>
-        </h3>
-        <div className="scrolling-partners">
-          <div className="partners-track">
-            {[partner1, partner2, partner3, partner4, partner1, partner2, partner3, partner4,
-              partner1, partner2, partner3, partner4, partner1, partner2, partner3, partner4
-            ].map((logo, index) => (
-              <div key={index} className="partner-logo">
-                <img src={logo} alt={`Partner ${index + 1}`} />
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

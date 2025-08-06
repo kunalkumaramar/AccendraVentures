@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <SocialBar />
       <Routes>
-        <Route path="/AccendraVentures" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
       </Routes>
     </div>
